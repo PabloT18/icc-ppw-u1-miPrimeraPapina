@@ -1,13 +1,5 @@
-# Práctica de la Teoria de la complejidad
 
-## 📌 Información General
-
-- **Título:** Práctica de la Teoria de la complejidad
-- **Asignatura:** Estructura de Datos
-- **Carrera:** Computación
-- **Estudiante:** Mateo Cordero, Michael Yumbla
-- **Fecha:** 10/05/2025
-- **Profesor:** Ing. Pablo Torres
+# Programación y Plataformas Web (PPW)
 
 ---
 

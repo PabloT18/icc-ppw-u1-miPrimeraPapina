@@ -49,7 +49,7 @@
 #  Práctica 2 – Adición de CSS y JavaScript
 ---
 
-### 🧾 1. Archivos agregados
+### 1. Archivos agregados
 
 | Archivo     | Descripción                                                                                         | Ubicación                 |
 | ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
@@ -71,7 +71,7 @@ icc-ppw-u1-mi_pagina_web/
 
 ---
 
-### 🧩 2. Implementación en HTML
+### 2. Implementación en HTML
 
 Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguiente forma:
 
@@ -89,7 +89,7 @@ COMLETAR
 
 ---
 
-### 🎨 3. Estilos aplicados con CSS
+### 3. Estilos aplicados con CSS
 
 * COMLETAR LA TABLA
 
@@ -124,7 +124,7 @@ button:hover {
 
 ---
 
-### ⚙️ 4. Interactividad agregada con JavaScript
+###  4. Interactividad agregada con JavaScript
 
 El archivo `script.js` incorpora dos acciones básicas:
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,27 +7,74 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
-    <title>Document</title>
+    <title>Mi primera página web</title>
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 </head>
 
 <body>
-    <h1>Pablo Torres</h1>
-    <p>Esta es mi primera página.</p>
+    <header>
+        <h1 id="titulo">Mi primera página con estándares web</h1>
+        <h2>Unidad 1.2 – Estándares Web</h2>
+    </header>
 
-    <h2>Sobre mí</h2>
-    <p>Escribir algo sobre ustedes...</p>
+    <main>
+        <section>
+            <h2>Tabla de elementos HTML</h2>
+            <p>A continuación se muestra una tabla creada con etiquetas HTML5.</p>
 
-    <h2>Enlaces</h2>
-    <ul>
-        <li>
-            <a
-                href="https://www.ups.edu.ec"
-                target="_blank"
-            >Mi GIT</a>
-        </li>
-    </ul>
+            <table>
+                <tr>
+                    <th>Elemento</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Encabezado principal del documento</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Define una sección temática en la página</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Pie de página con información del autor</td>
+                </tr>
+            </table>
+
+            <button id="agregarFila">Agregar fila</button>
+        </section>
+
+        <section>
+            <h2>Etiquetas nuevas exploradas</h2>
+            <p>Estas son dos etiquetas que aprendí de la tabla periódica HTML5.</p>
 
 
+            <figure>
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                    alt="Logo HTML5"
+                    width="100"
+                >
+                <figcaption>Logo representativo del lenguaje HTML5</figcaption>
+            </figure>
+
+
+            <p>Barra de progreso que representa un 70% completado:</p>
+            <progress
+                value="70"
+                max="100"
+            >70%</progress>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por <strong>Pablo Torres</strong> – Programación y Plataformas Web</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
